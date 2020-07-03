@@ -41,10 +41,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8A7F176A87068F2A0DE6B100 /* Pods-ColorKey_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorKey_Example.release.xcconfig"; path = "Target Support Files/Pods-ColorKey_Example/Pods-ColorKey_Example.release.xcconfig"; sourceTree = "<group>"; };
-		91012322F4A01562AC092F23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C0E6FA86640015EB83A41629 /* ColorKey.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorKey.podspec; path = ../ColorKey.podspec; sourceTree = "<group>"; };
+		91012322F4A01562AC092F23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0E6FA86640015EB83A41629 /* ColorKey.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColorKey.podspec; path = ../ColorKey.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CD010492331958AD2676539E /* Pods_ColorKey_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorKey_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D01AAD934A3F0DD7DF57B6B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D01AAD934A3F0DD7DF57B6B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D9BAF12F51B6899180B4F0BA /* Pods-ColorKey_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorKey_Tests.release.xcconfig"; path = "Target Support Files/Pods-ColorKey_Tests/Pods-ColorKey_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DAF3B73C14EF1B538442E605 /* Pods_ColorKey_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorKey_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				5DB8FC32E3F96A15CD80B39F /* Pods-ColorKey_Tests.debug.xcconfig */,
 				D9BAF12F51B6899180B4F0BA /* Pods-ColorKey_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
