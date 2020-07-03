@@ -1,0 +1,6 @@
+framework module ColorKey {
+  umbrella header "ColorKey-umbrella.h"
+
+  export *
+  module * { export * }
+}

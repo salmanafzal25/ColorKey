@@ -1,0 +1,16 @@
+PODS:
+  - ColorKey (0.1.0)
+
+DEPENDENCIES:
+  - ColorKey (from `../`)
+
+EXTERNAL SOURCES:
+  ColorKey:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ColorKey: 326983536dad15b14b8df56164f1420a9479008d
+
+PODFILE CHECKSUM: 592e570687eaa60bea14c40ace494bd2fba991db
+
+COCOAPODS: 1.9.3
