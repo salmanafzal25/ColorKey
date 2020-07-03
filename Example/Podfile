@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ColorKey_Example' do
+  pod 'ColorKey', :path => '../'
+
+  target 'ColorKey_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
